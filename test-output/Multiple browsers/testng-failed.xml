@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" name="Failed suite [Multiple browsers]" parallel="tests">
+  <parameter name="browser" value="firefox"/>
+  <test name="FireFox-Test(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.icpl.infostretch.TestFlipkart">
+        <methods>
+          <include name="flipkartlogin"/>
+          <include name="browserconfig"/>
+        </methods>
+      </class> <!-- com.icpl.infostretch.TestFlipkart -->
+    </classes>
+  </test> <!-- FireFox-Test(failed) -->
+</suite> <!-- Failed suite [Multiple browsers] -->

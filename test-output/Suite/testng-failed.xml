@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="none">
+  <parameter name="browser" value="ieEdge"/>
+  <test name="Chrome-Test(failed)" parallel="none">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.infoStretch.Infostretch.MultiBrowser">
+        <methods>
+          <include name="login"/>
+          <include name="browserconfig"/>
+          <include name="browserconfig"/>
+        </methods>
+      </class> <!-- com.infoStretch.Infostretch.MultiBrowser -->
+    </classes>
+  </test> <!-- Chrome-Test(failed) -->
+  <test name="EdgeTest(failed)" parallel="none">
+    <parameter name="browser" value="ieEdge"/>
+    <classes>
+      <class name="com.infoStretch.Infostretch.MultiBrowser">
+        <methods>
+          <include name="login"/>
+          <include name="browserconfig"/>
+          <include name="browserconfig"/>
+        </methods>
+      </class> <!-- com.infoStretch.Infostretch.MultiBrowser -->
+    </classes>
+  </test> <!-- EdgeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,11 @@
+8
+
+https://www.flipkart.com/
+https://www.flipkart.com/sw.js
+true
+{e3db0671-faaa-4812-a6fd-eec28e4e59e6}
+0
+1517389365377635
+1517389365391514
+1517389364423760
+#
